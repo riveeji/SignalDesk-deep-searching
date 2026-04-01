@@ -1,0 +1,14 @@
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+backend/runtime/
+backend/app/__pycache__/
+backend/.pytest_cache/
+backend/*.pyc
+backend/.env
+frontend/.env.local
+*.log
+*.err
+*.out.log
+*.tsbuildinfo
+.DS_Store

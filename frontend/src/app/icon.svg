@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171C2C" />
+      <stop offset="1" stop-color="#090C16" />
+    </linearGradient>
+    <linearGradient id="accent" x1="16" y1="16" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD58F" />
+      <stop offset="0.5" stop-color="#F7EFE1" />
+      <stop offset="1" stop-color="#7FD4FF" />
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="translate(32 28) rotate(90) scale(22)">
+      <stop stop-color="#162033" />
+      <stop offset="1" stop-color="#0B0F1B" />
+    </radialGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="url(#bg)" />
+  <rect x="4.75" y="4.75" width="54.5" height="54.5" rx="17.25" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1.5" />
+  <path d="M32 13L47.5 28.5L32 44L16.5 28.5L32 13Z" fill="url(#core)" stroke="url(#accent)" stroke-width="2.2" />
+  <path d="M22 22L32 28L42 22" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" />
+  <path d="M22 36L32 28L42 36" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" />
+  <path d="M18 18L32 28L46 18" stroke="#FFFFFF" stroke-opacity="0.24" stroke-width="1.6" stroke-linecap="round" />
+  <path d="M32 28V48" stroke="#FFFFFF" stroke-opacity="0.24" stroke-width="1.6" stroke-linecap="round" />
+  <circle cx="18" cy="18" r="3.2" fill="#FFD58F" />
+  <circle cx="46" cy="18" r="3.2" fill="#7FD4FF" />
+  <circle cx="32" cy="48" r="3.5" fill="#F7EFE1" />
+  <circle cx="32" cy="28" r="4.2" fill="#0B0F1B" stroke="url(#accent)" stroke-width="1.8" />
+</svg>

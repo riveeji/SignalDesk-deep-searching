@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: deepresearch
+    ports:
+      - "15432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d deepresearch"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - deepresearch-pgdata:/var/lib/postgresql/data
+
+volumes:
+  deepresearch-pgdata:
