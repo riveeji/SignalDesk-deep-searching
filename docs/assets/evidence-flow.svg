@@ -1,0 +1,56 @@
+<svg width="1200" height="540" viewBox="0 0 1200 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="540" rx="32" fill="#0A0E17"/>
+  <rect x="26" y="26" width="1148" height="488" rx="26" fill="#101625"/>
+  <text x="88" y="92" fill="#F5F7FB" font-size="34" font-family="Arial, sans-serif" font-weight="700">研究执行链路</text>
+  <text x="88" y="126" fill="#9EACC1" font-size="18" font-family="Arial, sans-serif">从问题澄清到证据约束，SignalDesk 会把一次研究拆成可追踪的五个阶段。</text>
+
+  <g>
+    <rect x="86" y="204" width="180" height="104" rx="24" fill="#162031" stroke="#28364D"/>
+    <text x="176" y="246" text-anchor="middle" fill="#FFD58F" font-size="24" font-family="Arial, sans-serif" font-weight="700">Clarifier</text>
+    <text x="176" y="278" text-anchor="middle" fill="#C9D3E4" font-size="16" font-family="Arial, sans-serif">收敛问题范围</text>
+  </g>
+
+  <g>
+    <rect x="306" y="204" width="180" height="104" rx="24" fill="#162031" stroke="#28364D"/>
+    <text x="396" y="246" text-anchor="middle" fill="#FFD58F" font-size="24" font-family="Arial, sans-serif" font-weight="700">Planner</text>
+    <text x="396" y="278" text-anchor="middle" fill="#C9D3E4" font-size="16" font-family="Arial, sans-serif">生成研究计划</text>
+  </g>
+
+  <g>
+    <rect x="526" y="204" width="180" height="104" rx="24" fill="#162031" stroke="#28364D"/>
+    <text x="616" y="246" text-anchor="middle" fill="#FFD58F" font-size="24" font-family="Arial, sans-serif" font-weight="700">Retriever</text>
+    <text x="616" y="278" text-anchor="middle" fill="#C9D3E4" font-size="16" font-family="Arial, sans-serif">多源搜证与归一化</text>
+  </g>
+
+  <g>
+    <rect x="746" y="204" width="180" height="104" rx="24" fill="#162031" stroke="#28364D"/>
+    <text x="836" y="246" text-anchor="middle" fill="#FFD58F" font-size="24" font-family="Arial, sans-serif" font-weight="700">Synthesizer</text>
+    <text x="836" y="278" text-anchor="middle" fill="#C9D3E4" font-size="16" font-family="Arial, sans-serif">生成报告与引用</text>
+  </g>
+
+  <g>
+    <rect x="966" y="204" width="148" height="104" rx="24" fill="#162031" stroke="#28364D"/>
+    <text x="1040" y="246" text-anchor="middle" fill="#FFD58F" font-size="22" font-family="Arial, sans-serif" font-weight="700">Validator</text>
+    <text x="1040" y="278" text-anchor="middle" fill="#C9D3E4" font-size="16" font-family="Arial, sans-serif">证据覆盖校验</text>
+  </g>
+
+  <path d="M266 256H306" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M486 256H526" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M706 256H746" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M926 256H966" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="148" y="372" width="904" height="82" rx="24" fill="#0D1320" stroke="#243247"/>
+  <text x="600" y="404" text-anchor="middle" fill="#E8EDF7" font-size="20" font-family="Arial, sans-serif" font-weight="700">
+    GitHub API · 官方文档 · 网页搜索 · Crossref · 手动导入
+  </text>
+  <text x="600" y="432" text-anchor="middle" fill="#9FB0C8" font-size="16" font-family="Arial, sans-serif">
+    coverage summary · verdict · recommendation confidence · missing evidence · citation backlinks
+  </text>
+
+  <defs>
+    <linearGradient id="line" x1="266" y1="256" x2="1006" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD58F"/>
+      <stop offset="1" stop-color="#7FD4FF"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="680" rx="36" fill="#0A0E17"/>
+  <rect x="24" y="24" width="1152" height="632" rx="28" fill="url(#bg)"/>
+  <rect x="72" y="82" width="220" height="70" rx="22" fill="#121826" stroke="#243047"/>
+  <rect x="88" y="98" width="38" height="38" rx="12" fill="#1A2233"/>
+  <circle cx="107" cy="117" r="10" fill="#FFD58F"/>
+  <text x="144" y="114" fill="#F5F7FB" font-size="24" font-family="Arial, sans-serif" font-weight="700">研策台</text>
+  <text x="144" y="138" fill="#AEB8C8" font-size="14" font-family="Arial, sans-serif">深度研究智能体</text>
+
+  <text x="600" y="210" text-anchor="middle" fill="#F6F2EA" font-size="56" font-family="Arial, sans-serif" font-weight="700">把问题丢进来</text>
+  <text x="600" y="252" text-anchor="middle" fill="#AAB5C7" font-size="22" font-family="Arial, sans-serif">先找证据，再下结论。</text>
+
+  <rect x="190" y="316" width="820" height="184" rx="34" fill="#101725" stroke="#26344D"/>
+  <rect x="222" y="346" width="756" height="92" rx="28" fill="#0B101A" stroke="#202B40"/>
+  <text x="256" y="398" fill="#E8EDF7" font-size="28" font-family="Arial, sans-serif">
+    例如：LangGraph、PydanticAI 和 Mastra 在 Python 生产环境里谁更适合作为 Agent 底座？
+  </text>
+  <text x="228" y="468" fill="#96A4BA" font-size="18" font-family="Arial, sans-serif">DeepSeek · deepseek-chat 已连接</text>
+  <rect x="808" y="452" width="170" height="44" rx="22" fill="url(#btn)"/>
+  <text x="893" y="480" text-anchor="middle" fill="#0D1320" font-size="19" font-family="Arial, sans-serif" font-weight="700">开始研究</text>
+
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1090" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B111C"/>
+      <stop offset="0.5" stop-color="#101524"/>
+      <stop offset="1" stop-color="#131A2C"/>
+    </linearGradient>
+    <linearGradient id="btn" x1="808" y1="452" x2="978" y2="496" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD58F"/>
+      <stop offset="1" stop-color="#7FD4FF"/>
+    </linearGradient>
+  </defs>
+</svg>
